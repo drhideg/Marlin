@@ -2557,17 +2557,23 @@
 #define PREHEAT_2_TEMP_CHAMBER 30
 #define PREHEAT_2_FAN_SPEED   25 // Value from 0 to 255
 
-#define PREHEAT_3_LABEL       "ASA"
-#define PREHEAT_3_TEMP_HOTEND 255
-#define PREHEAT_3_TEMP_BED     105
+#define PREHEAT_3_LABEL       "PCTG"
+#define PREHEAT_3_TEMP_HOTEND 250
+#define PREHEAT_3_TEMP_BED     80
 #define PREHEAT_3_TEMP_CHAMBER 45
 #define PREHEAT_3_FAN_SPEED   0 // Value from 0 to 255
 
-#define PREHEAT_4_LABEL       "TPU"
-#define PREHEAT_4_TEMP_HOTEND 210
-#define PREHEAT_4_TEMP_BED     60
-#define PREHEAT_4_TEMP_CHAMBER 30
-#define PREHEAT_4_FAN_SPEED   255 // Value from 0 to 255
+#define PREHEAT_4_LABEL       "ASA"
+#define PREHEAT_4_TEMP_HOTEND 255
+#define PREHEAT_4_TEMP_BED     105
+#define PREHEAT_4_TEMP_CHAMBER 45
+#define PREHEAT_4_FAN_SPEED   0 // Value from 0 to 255
+
+#define PREHEAT_5_LABEL       "TPU"
+#define PREHEAT_5_TEMP_HOTEND 210
+#define PREHEAT_5_TEMP_BED     60
+#define PREHEAT_5_TEMP_CHAMBER 30
+#define PREHEAT_5_FAN_SPEED   255 // Value from 0 to 255
 
 /**
  * @section nozzle park
