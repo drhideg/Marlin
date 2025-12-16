@@ -4819,5 +4819,5 @@
 // Shrink the build for smaller boards by sacrificing some serial feedback
 //#define MARLIN_SMALL_BUILD
 
-//#define NO_CONFIGURATION_EMBEDDING_WARNING
-//#define NO_AUTO_ASSIGN_WARNING
+#define NO_CONFIGURATION_EMBEDDING_WARNING
+#define NO_AUTO_ASSIGN_WARNING
