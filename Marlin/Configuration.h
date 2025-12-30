@@ -2533,13 +2533,13 @@
 #define PREHEAT_1_TEMP_HOTEND 200
 #define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_TEMP_CHAMBER 30
-#define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
+#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PETG"
 #define PREHEAT_2_TEMP_HOTEND 230
 #define PREHEAT_2_TEMP_BED     80
 #define PREHEAT_2_TEMP_CHAMBER 30
-#define PREHEAT_2_FAN_SPEED    0 // Value from 0 to 255
+#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_3_LABEL       "PCTG"
 #define PREHEAT_3_TEMP_HOTEND 250
@@ -2557,7 +2557,7 @@
 #define PREHEAT_5_TEMP_HOTEND 210
 #define PREHEAT_5_TEMP_BED     60
 #define PREHEAT_5_TEMP_CHAMBER 30
-#define PREHEAT_5_FAN_SPEED   255
+#define PREHEAT_5_FAN_SPEED     0
 
 /**
  * @section nozzle park
