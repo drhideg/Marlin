@@ -1625,6 +1625,7 @@
      * For example, with an offset of -5, consider a starting height of -4.
      */
     //#define PROBE_OFFSET_WIZARD_START_Z -1.0
+#if HAS_BED_PROBE
 
   #if HAS_MARLINUI_MENU
     #define PROBE_DEPLOY_STOW_MENU    // Show Deploy / Stow Probe options in the Motion menu.
@@ -2132,7 +2133,7 @@
  * By default an onboard SD card reader may be shared as a USB mass-
  * storage device. This option hides the SD card from the host PC.
  */
-//#define NO_SD_HOST_DRIVE   // Disable SD Card access over USB (for security).
+#define NO_SD_HOST_DRIVE   // Disable SD Card access over USB (for security).
 
 /**
  * Additional options for Graphical Displays
